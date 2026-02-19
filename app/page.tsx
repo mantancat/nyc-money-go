@@ -424,7 +424,7 @@ export default function Page() {
       <style jsx>{`
         .nyc-wrap { min-height: 100vh; background: #f6f4ee; color: #111; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; }
         .nyc-header { padding: 20px 24px 14px; text-align: center; border-bottom: 1px solid #dedad2; }
-        .nyc-brand { font-size: 42px; letter-spacing: 0.08em; text-transform: uppercase; }
+        .nyc-brand { font-size: 44px; letter-spacing: 0.08em; text-transform: uppercase; }
         .nyc-sub { margin-top: 8px; font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #7a7a7a; }
         .nyc-main { padding: 18px; display: grid; gap: 14px; }
         .nyc-topCards { display: grid; grid-template-columns: repeat(2, minmax(280px, 1fr)); gap: 14px; }
@@ -446,7 +446,7 @@ export default function Page() {
         .nyc-legendRow { border: 1px solid #dedad2; background: transparent; border-radius: 10px; padding: 8px 10px; display: grid; grid-template-columns: 10px 1fr auto; gap: 8px; align-items: center; text-align: left; cursor: pointer; }
         .nyc-legendRow.active, .nyc-legendRow:hover { background: rgba(0,0,0,0.03); }
         .nyc-swatch { width: 10px; height: 10px; border-radius: 2px; display: inline-block; }
-        .nyc-spend { margin-top: 2px; font-size: 38px; line-height: 1.2; }
+        .nyc-spend { margin-top: 2px; font-size: 33px; line-height: 1.2; }
         .nyc-hoverCard { margin-top: 10px; border: 1px solid #dedad2; border-radius: 12px; padding: 10px 12px; background: #fffdf8; }
         .nyc-hoverTitle { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
         .nyc-hoverText { font-size: 12px; line-height: 1.4; color: #333; }
@@ -458,7 +458,7 @@ export default function Page() {
           .nyc-viz { grid-template-columns: 1fr; }
           .nyc-big { font-size: 32px; }
           .nyc-unit { font-size: 20px; }
-          .nyc-spend { font-size: 28px; }
+          .nyc-spend { font-size: 23px; }
         }
       `}</style>
     </div>
